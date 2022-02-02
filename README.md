@@ -3,19 +3,19 @@
 <br/>
 
 
-  ##Usage
+  ## Usage
   
   * Create an image (Any format accepted).
   * Feed the image to the script with the default parameters.
   * Throw the processed object file to Visual Studio.
   * Build with x86
   
-  ##Notes
+  ## Notes
   
   * To change the function name of the image use the "--funcname" argument (Default is "_main").
   * To add the function to the exports table use the "--exp" flag.
 
-  ##Usage Example
+  ## Usage Example
   
   * Run the command "python ida_warefare.py --path YS.png --obj -v".
   * Put the file "code.obj" into your Visual Studio project.
