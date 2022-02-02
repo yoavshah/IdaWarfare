@@ -1,6 +1,5 @@
 # IdaWarfare
 
-
   ## Usage
   
   * Create an image (Any format accepted).
@@ -25,6 +24,7 @@
 <img align="center" src="https://raw.githubusercontent.com/yoavshah/IdaWarfare/master/images/YS_IDA.png" />
 
 
-
+  ## Credits
+  Real thanks for xoreaxeaxeax for the inspiration from his [project](https://github.com/xoreaxeaxeax/REpsych)
 
 
