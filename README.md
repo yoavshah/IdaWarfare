@@ -1,7 +1,5 @@
 # IdaWarfare
 
-<br/>
-
 
   ## Usage
   
