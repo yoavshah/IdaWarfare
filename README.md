@@ -1,28 +1,32 @@
 # IdaWarfare
 
-[![Linkedin](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://www.linkedin.com/in/yoavshah/)
+<br/>
 
 
-### Connect with me:
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-<br />
-
-
-
-
-<details>
-  <summary>How to use</summary>
+  ##Usage
   
   * Create an image (Any format accepted).
   * Feed the image to the script with the default parameters.
   * Throw the processed object file to Visual Studio.
   * Build with x86
   
-  <summary>Important flags</summary>
+  ##Notes
   
+  * To change the function name of the image use the "--funcname" argument (Default is "_main").
+  * To add the function to the exports table use the "--exp" flag.
+
+  ##Usage Example
   
-</details>
+  * Run the command "python ida_warefare.py --path YS.png --obj -v".
+  * Put the file "code.obj" into your Visual Studio project.
+
+<img align="center" src="https://raw.githubusercontent.com/yoavshah/IdaWarfare/master/images/YS_VisualStudio.png" />
+
+  * Build and open in IDA :)
+
+<img align="center" src="https://raw.githubusercontent.com/yoavshah/IdaWarfare/master/images/YS_IDA.png" />
 
 
 
-[linkedin]: https://www.linkedin.com/in/yoavshah/
+
+
