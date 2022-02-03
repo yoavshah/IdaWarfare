@@ -1,5 +1,7 @@
 # IdaWarfare
 
+  ## IdaWarfare is a project allow you to create images inside IDA graph view using comfortable and dynamic arguments.
+
   ## Usage
   
   * Create an image (Any format accepted).
@@ -14,7 +16,7 @@
 
   ## Usage Example
   
-  * Run the command "python ida_warefare.py --path YS.png --obj -v".
+  * Run the command "python ida_warefare.py --path YS.png --obj --asm_output images\code.asm --obj_output images\code.obj -v".
   * Put the file "code.obj" into your Visual Studio project.
 
 <img align="center" src="https://raw.githubusercontent.com/yoavshah/IdaWarfare/master/images/YS_VisualStudio.png" />
