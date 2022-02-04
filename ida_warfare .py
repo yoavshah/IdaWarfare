@@ -19,6 +19,7 @@ def create_assembly_code(im_frame, funcname, assembly_command, blocksize, export
     image_height = im_frame.shape[0]
     image_width = im_frame.shape[1]
 
+    # Create the assembly file header and the jump table.
     if export_function is True:
         assembly_data = """
         global {}
@@ -45,6 +46,7 @@ def create_assembly_code(im_frame, funcname, assembly_command, blocksize, export
         for j in range(1, image_height + 1):
             curr_label = LABEL.format(str(j), str(i))
             assembly_data += curr_label + ":\n"
+
             # First Column.
             if i == 1:
                 assembly_data += assembly_command * blocksize

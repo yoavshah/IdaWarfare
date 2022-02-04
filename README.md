@@ -26,6 +26,14 @@
 <img align="center" src="https://raw.githubusercontent.com/yoavshah/IdaWarfare/master/images/YS_IDA.png" />
 
 
+  ## How does it works?
+  
+  * Each code block is responsible to imitate an image pixel.
+  * The project creates an assembly code that contains a jump table to the first row of code blocks, which corresponds to the first row of pixels in the image.
+  * Each code block(image pixel) connects to the two pixels beneath him.
+  * The last row of code blocks have a single jmp operator to the end of the function.
+  * A black pixel have a numerous assembly instructions in its code block, A white pixel has only one assembly instruction.
+
   ## Credits
   Real thanks for xoreaxeaxeax for the inspiration from his [project](https://github.com/xoreaxeaxeax/REpsych)
 
