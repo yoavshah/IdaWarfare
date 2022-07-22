@@ -1,13 +1,13 @@
 # IdaWarfare
 
-  ## IdaWarfare is a project allow you to create images inside IDA graph view using comfortable and dynamic arguments.
+  ## IdaWarfare is a project that allows you to create images inside IDA graph view using comfortable and dynamic arguments.
 
   ## Usage
   
   * Create an image (Any format accepted).
   * Feed the image to the script with the default parameters.
   * Throw the processed object file to Visual Studio.
-  * Build with x86
+  * Build it with x86
   
   ## Notes
   
